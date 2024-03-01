@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from sharjeelanjum.com/html/car-rental/html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Feb 2024 17:31:13 GMT -->
+<head>
+<meta charset="UTF-8">
+<title>Car Rental - Responsive Onepage HTML Template</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="Car Rental One Page HTML Template">
+<meta name="keywords" content="one page, html, template, car, car rental, taxi, cab, booking, responsive, business">
+<meta name="author" content="sharjeel anjum">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Bootstrap css -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+
+<!-- Fontawesome css -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Magnific-popup css -->
+<link rel="stylesheet" href="css/magnific-popup.css">
+
+<!-- Owl Carousel css -->
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<!-- PRE LOADER -->
+<div class="preloader">
+  <div class="cssload-dots">
+    <div class="cssload-dot"></div>
+    <div class="cssload-dot"></div>
+    <div class="cssload-dot"></div>
+    <div class="cssload-dot"></div>
+    <div class="cssload-dot"></div>
+  </div>
+</div>
+
+<!-- Navigation Section -->
+<div class="navbar custom-navbar wow fadeInDown" data-wow-duration="2s" role="navigation" id="header">
+  <div class="container"> 
+    
+    <!-- NAVBAR HEADER -->
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> <span class="icon icon-bar"></span> </button>
+      <!-- lOGO TEXT HERE --> 
+      <a href="index.html" class="navbar-brand p-0"><img src="images/logo-white.svg" class="img-responsive"></div>
+    
+    <!-- NAVIGATION LINKS -->
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home" class="smoothScroll">Home</a></li>
+        <li><a href="#cars" class="smoothScroll">Cars</a></li>
+        <li><a href="#about" class="smoothScroll">About</a></li>
+        <li><a href="#service" class="smoothScroll">Service</a></li>
+        <li><a href="#team" class="smoothScroll">Support</a></li>
+        <li><a href="#testimonials" class="smoothScroll">Clients</a></li>
+        <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        <li><span class="calltxt"><i class="fa fa-phone" aria-hidden="true"></i> +91 8220448191</span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Home Section -->
+<div id="home" class="parallax-section"> 
+  <!--     <div class="overlay"></div>-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-offset-1 col-md-10 col-sm-12">
+        <div class="slide-text">
+         
+          <h1>Welcome To </h1>
+          <h1>Sai Ram Tours & Travels</h1>
+          <h3 class="acting-h3">(Acting Driver Services)</h3>
+           <h3>What we offer? <a href="#" class="typewrite" data-period="2000" data-type='[ "Car Rental", "Special Rates", "Trained Acting Drivers", "City to City" ]'> <span class="wrap"></span> </a> </h3>
+          <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+          <!-- <a href="#about" class="btn btn-default section-btn">Get Started</a>  -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Form Section -->
+<div class="container">
+  <div class="bformBox">
+    <h3>BOOK YOUR CAR TODAY!</h3>
+    <form action="https://sharjeelanjum.com/html/car-rental/html/booking.php" method="POST">
+      <div class="formrow">
+        <select class="form-control" name="car_type" >
+          <option value="" >Select Your Car For Booking</option>
+          <option>BMW</option>
+          <option>Honda</option>
+          <option>Toyota</option>
+          <option>Nissan</option>
+          <option>Chrysler</option>
+          <option>Chevrolet</option>
+          <option>Mercedes</option>
+          <option>Volvo</option>
+          <option>Suzuki</option>
+        </select>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="formrow">
+            <div class="input-group"> <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i> Pick-Up</span>
+              <select class="form-control" data-live-search="true" name="pickup" id="pickup" required="required" >
+                <option value="">Select Pick-Up</option>
+                <option>New York</option>
+                <option>Los Angeles</option>
+                <option>Houston</option>
+                <option>San Diego</option>
+                <option>Chicago</option>
+                <option>California</option>
+                <option>San Jose</option>
+                <option>Atlanta</option>
+                <option>Kansas City</option>
+                <option>Chattanooga</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="formrow">
+            <div class="input-group date form_datetime" data-date="2018-02-22T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
+              <input class="form-control" size="16" type="text" value="" readonly placeholder="Select Date and Time" name="datetime_pick" required >
+              <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span> <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="formrow">
+            <div class="input-group"> <span class="input-group-addon"><i class="fa fa-map-marker" aria-hidden="true"></i> Drop-Off</span>
+              <select class="form-control" data-live-search="true" name="dropoff" id="drop" required="required">
+                <option value="" >Select Drop-Off</option>
+                <option>New York</option>
+                <option>Los Angeles</option>
+                <option>Houston</option>
+                <option>San Diego</option>
+                <option>Chicago</option>
+                <option>California</option>
+                <option>San Jose</option>
+                <option>Atlanta</option>
+                <option>Kansas City</option>
+                <option>Chattanooga</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="formrow">
+            <div class="input-group date form_datetime" data-date="2018-02-22T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
+              <input class="form-control" size="16" type="text" value="" readonly placeholder="Select Date and Time" name="datetime_off" required >
+              <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span> <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span> </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <div class="formrow">
+            <input type="text" class="form-control" placeholder="Your Name" name="name" required >
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="formrow">
+            <input type="email" class="form-control" placeholder="Your Email" name="email" required>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="formrow">
+            <input type="text" class="form-control" placeholder="Phone" name="phone" required>
+          </div>
+        </div>
+      </div>
+      <div class="formbtn">
+        <input type="submit" class="btn" value="Submit Car Booking">
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Cars Section -->
+<div class="parallax-section" id="cars">
+  <div class="container">
+    <div class="section-title">
+      <h3>Vehicle Models and <span>price</span></h3>
+      <p>We pride ourselves on providing exceptional service and unbeatable value. With flexible rental options, competitive rates, and convenient locations, renting a vehicle has never been easier. Reserve your rental car today and start your journey with confidence!</p>
+    </div>
+    <div class="vehiclesList">
+      <ul  class="carsmodals">
+        <li class="item">
+          <div class="row">
+            <div class="col-md-3">
+              <h3>TATA INDICA</h3>
+              <div class="subtitle"></div>
+              <div class="carPrice"> <strong>₹11</strong> <span>/KM</span> </div>
+             </div>
+            <div class="col-md-6"><a href="javascript:void(0)" class="image-popup"><img src="images/cars/tata-indica.png" alt="" /></a></div>
+            <div class="col-md-3">
+              <div class="carinfo">
+                <ul>
+                  <li>Doors: <strong>4</strong></li>
+                  <li>Passengers: <strong>4</strong></li>
+                  <li>Transmission: <strong>Manual</strong></li>
+                  <li>Air conditioning: <strong>Dual Zone</strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="row">
+            <div class="col-md-3">
+              <h3>TATA ZEST</h3>
+              <div class="subtitle"></div>
+              <div class="carPrice"> <strong>₹12</strong> <span>/KM</span> </div>
+           </div>
+            <div class="col-md-6"><a href="javascript:void(0)" class="image-popup"><img src="images/cars/tata-zest.png" alt="" /></a></div>
+            <div class="col-md-3">
+              <div class="carinfo">
+                <ul>
+                  <li>Doors: <strong>4</strong></li>
+                  <li>Passengers: <strong>4</strong></li>
+                  <li>Transmission: <strong>Manual</strong></li>
+                  <li>Air conditioning: <strong>Dual Zone</strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="row">
+            <div class="col-md-3">
+              <h3>swift</h3>
+              <div class="subtitle"></div>
+              <div class="carPrice"> <strong>₹12</strong> <span>/KM</span> </div>
+           </div>
+            <div class="col-md-6"><a href="javascript:void(0)" class="image-popup"><img src="images/cars/swift.png" alt="" /></a></div>
+            <div class="col-md-3">
+              <div class="carinfo">
+                <ul>
+                  <li>Doors: <strong>4</strong></li>
+                  <li>Passengers: <strong>4</strong></li>
+                  <li>Transmission: <strong>Manual</strong></li>
+                  <li>Air conditioning: <strong>Dual Zone</strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="row">
+            <div class="col-md-3">
+              <h3>Etios</h3>
+              <div class="subtitle">Platinum</div>
+              <div class="carPrice"> <strong>₹13</strong> <span>/KM</span> </div>
+             </div>
+            <div class="col-md-6"><a href="javascript:void(0)" class="image-popup"><img src="images/cars/etios.png" alt="" /></a></div>
+            <div class="col-md-3">
+              <div class="carinfo">
+                <ul>
+                  <li>Doors: <strong>4</strong></li>
+                  <li>Passengers: <strong>4</strong></li>
+                  <li>Transmission: <strong>Manual</strong></li>
+                  <li>Air conditioning: <strong>Dual Zone</strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="row">
+            <div class="col-md-3">
+              <h3>Tavera</h3>
+              <div class="subtitle"></div>
+              <div class="carPrice"> <strong>₹16</strong> <span>/KM</span> </div>
+              </div>
+            <div class="col-md-6"><a href="javascript:void(0)" class="image-popup"><img src="images/cars/tavera.png" alt="" /></a></div>
+            <div class="col-md-3">
+              <div class="carinfo">
+                <ul>
+                  <li>Doors: <strong>4</strong></li>
+                  <li>Passengers: <strong>6</strong></li>
+                  <li>Transmission: <strong>Manual</strong></li>
+                  <li>Air conditioning: <strong>Dual Zone</strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="row">
+            <div class="col-md-3">
+              <h3>Innova</h3>
+              <div class="subtitle"></div>
+              <div class="carPrice"> <strong>₹18</strong> <span>/KM</span> </div>
+           </div>
+            <div class="col-md-6"><a href="javascript:void(0)" class="image-popup"><img src="images/cars/innova.png" alt="" /></a></div>
+            <div class="col-md-3">
+              <div class="carinfo">
+                <ul>
+                  <li>Doors: <strong>4</strong></li>
+                  <li>Passengers: <strong>6</strong></li>
+                  <li>Transmission: <strong>Manual</strong></li>
+                  <li>Air conditioning: <strong>Dual Zone</strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="item">
+          <div class="row">
+            <div class="col-md-3">
+              <h3>Tempo traveler</h3>
+              <div class="subtitle"></div>
+              <div class="carPrice"> <strong>₹25</strong> <span>/KM</span> </div>
+             </div>
+            <div class="col-md-6"><a href="javascript:void(0)" class="image-popup"><img src="images/cars/Tempo.png" alt="" /></a></div>
+            <div class="col-md-3">
+              <div class="carinfo">
+                <ul>
+                  <li>Doors: <strong>4</strong></li>
+                  <li>Passengers: <strong>12 to 25</strong></li>
+                  <li>Transmission: <strong>Manual</strong></li>
+                  <li>Air conditioning: <strong>Dual Zone</strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Service 1 -->
+<div class="servicesbox bg1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-6">
+        <h3>Car Rentals</h3>
+        <div class="ctoggle">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt mauris est, in faucibus dui viverra et. Aliquam finibus vestibulum elit, at pharetra nisl congue vel. Nunc pretium posuere justo pretium fringilla. Sed volutpat risus non rhoncus convallis. Sed fermentum est at hendrerit pellentesque. Mauris nec leo euismod, sagittis mauris in, posuere est...</p>
+          <a href="#" class="readmore">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title">
+      <h3>About <span>Car Rental</span> Template</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum, sed posuere eros sapien id quam. Maecenas odio nisi, efficitur eget</p>
+    </div>
+    <div class="about-desc">
+      <div class="row">
+        <div class="col-md-7">
+          <ul class="circleList row">
+            <li class="col-md-4 col-sm-4">
+              <div class="cricle"><i class="fa fa-car" aria-hidden="true"></i></div>
+              <div class="title">Mauris convallis felis</div>
+            </li>
+            <li class="col-md-4 col-sm-4">
+              <div class="cricle"><i class="fa fa-users" aria-hidden="true"></i></div>
+              <div class="title">Mauris convallis felis</div>
+            </li>
+            <li class="col-md-4 col-sm-4">
+              <div class="cricle"><i class="fa fa-tags" aria-hidden="true"></i></div>
+              <div class="title">Mauris convallis felis</div>
+            </li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. <br>
+            <br>
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+          <ul class="orderlist">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+            <li>Sed a mauris at ex lobortis hendrerit in nec felis.</li>
+            <li>Nunc sed urna sit amet sapien rhoncus pretium congue id sem.</li>
+            <li>Vivamus sagittis sapien a tellus consequat rutrum.</li>
+            <li>Mauris at justo malesuada ligula accumsan tincidunt quis efficitur orci.</li>
+          </ul>
+        </div>
+        <div class="col-md-5">
+          <div class="postimg"><img src="images/about-img.jpg"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Counter Section -->
+<div id="counter">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
+        <div class="counterbox">
+          <div class="counter-icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+          <span class="counter-number" data-from="1" data-to="1723" data-speed="1000"></span> <span class="counter-text">Happy Client</span> </div>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
+        <div class="counterbox">
+          <div class="counter-icon"><i class="fa fa-car" aria-hidden="true"></i></i></div>
+          <span class="counter-number" data-from="1" data-to="199" data-speed="2000"></span> <span class="counter-text">Cars</span> </div>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
+        <div class="counterbox">
+          <div class="counter-icon"><i class="fa fa-map-signs" aria-hidden="true"></i></div>
+          <span class="counter-number" data-from="1" data-to="786" data-speed="3000"></span> <span class="counter-text">Destinations</span> </div>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12 counter-item">
+        <div class="counterbox">
+          <div class="counter-icon"><i class="fa fa-trophy" aria-hidden="true"></i></div>
+          <span class="counter-number" data-from="1" data-to="199" data-speed="4000"></span> <span class="counter-text">Awards</span> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Service Section -->
+<div id="service" class="parallax-section">
+  <div class="container"> 
+    <!-- Section Title -->
+    <div class="section-title" >
+      <h3>Car Rental <span>Services</span></h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum, sed posuere eros sapien id quam. Maecenas odio nisi, efficitur eget</p>
+    </div>
+    <div class="row"> 
+      <!-- Service 1 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="service-thumb">
+          <div class="thumb-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+          <h4>Phone Reservation</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque.</p>
+        </div>
+      </div>
+      
+      <!-- Service 2 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="service-thumb">
+          <div class="thumb-icon"><i class="fa fa-money" aria-hidden="true"></i></div>
+          <h4>Special Rates</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque.</p>
+        </div>
+      </div>
+      
+      <!-- Service 3 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="service-thumb">
+          <div class="thumb-icon"><i class="fa fa-road" aria-hidden="true"></i></div>
+          <h4>One Way Rental</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque.</p>
+        </div>
+      </div>
+      
+      <!-- Service 4 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="service-thumb">
+          <div class="thumb-icon"><i class="fa fa-umbrella" aria-hidden="true"></i></div>
+          <h4>Life Insurance</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque.</p>
+        </div>
+      </div>
+      
+      <!-- Service 5 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="service-thumb">
+          <div class="thumb-icon"><i class="fa fa-building" aria-hidden="true"></i></div>
+          <h4>City to City</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque.</p>
+        </div>
+      </div>
+      
+      <!-- Service 6 -->
+      <div class="col-md-4 col-sm-6">
+        <div class="service-thumb">
+          <div class="thumb-icon"><i class="fa fa-car" aria-hidden="true"></i></div>
+          <h4>Free Rides</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit pellentesque.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tagline Section -->
+<div class="taglinewrap">
+  <div class="container">
+    <h2>Get Started Today</h2>
+    <p>Sed sed neque laoreet, rhoncus libero id, pharetra est. Sed ut neque est. Maecenas et est sagittis, mollis risus dignissim, mattis dolor. </p>
+    <a href="#">Purchase Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
+</div>
+
+<!-- Team Section -->
+<div id="team" class="parallax-section">
+  <div class="container"> 
+    
+    <!-- Dection Title -->
+    <div class="section-title" >
+      <h3>Our <span>Acting drivers</span></h3>
+      <p>Our drivers are well trained to operate vehicles safely while also following the customers instruction.</p>
+    </div>
+    <div class="row"> 
+      <!-- team 1 -->
+      <div class="col-md-3 col-sm-6" >
+        <div class="team-thumb">
+          <div class="thumb-image"><img src="images/team/teams.svg" alt=""></div>
+          <h4>Dharun</h4>
+          <h5>Driver</h5>
+         
+        </div>
+      </div>
+      
+      <!-- team 2 -->
+      <div class="col-md-3 col-sm-6" >
+        <div class="team-thumb">
+          <div class="thumb-image"><img src="images/team/teams.svg" alt=""></div>
+          <h4>Muniraj</h4>
+          <h5>Driver</h5>
+          
+        </div>
+      </div>
+      
+      <!-- team 3 -->
+      <div class="col-md-3 col-sm-6" >
+        <div class="team-thumb">
+          <div class="thumb-image"><img src="images/team/teams.svg" alt=""></div>
+          <h4>Rajan</h4>
+          <h5>Driver</h5>
+         
+        </div>
+      </div>
+      
+      <!-- team 4 -->
+      <div class="col-md-3 col-sm-6" >
+        <div class="team-thumb">
+          <div class="thumb-image"><img src="images/team/teams.svg" alt=""></div>
+          <h4>Sundar</h4>
+          <h5>Driver</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonials Section -->
+<div id="testimonials">
+  <div class="container"> 
+    
+    <!-- Section Title -->
+    <div class="section-title">
+      <h3>Customers Feeback</h3>
+    </div>
+    <ul class="testimonialsList">
+      <!-- Client -->
+      <li class="item">
+        <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </div>
+        <p>I recently had the pleasure of using Sri Sairam Travel's cab services in Virudhunagar, and I must say, it was truly a delightful experience. From start to finish, the service exceeded my expectations in every aspect. Not only was the fare incredibly affordable, but the quality of service provided was impeccable...</p>
+        <div class="clientname">Muniraj Mani</div>
+        <div class="clientinfo">Customer</div>
+      </li>
+      
+      <!-- Client -->
+      <li class="item">
+        <div class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </div>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra id nunc at finibus. Etiam sollicitudin faucibus cursus. Proin luctus cursus nulla sed iaculis. Quisque vestibulum augue nec aliquet aliquet."</p>
+        <div class="clientname">Jhon Doe</div>
+        <div class="clientinfo">CEO - Company Inc</div>
+      </li>
+
+
+    </ul>
+  </div>
+</div>
+
+<!-- Blog Section -->
+<div id="blog">
+  <div class="container"> 
+    <!-- SECTION TITLE -->
+    <div class="section-title" >
+      <h3>Latest From <span>Blog</span></h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <ul class="blogGrid">
+      <li class="item">
+        <div class="int"> 
+          
+          <!-- Blog Image -->
+          <div class="postimg"> <img src="images/blog/1.jpg" alt="Blog Title"></div>
+          <!-- Blog info -->
+          <div class="post-header">
+            <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> Feb 01, 2018</div>
+            <h4><a href="#.">Duis ultricies aliquet mauris</a></h4>
+            <div class="postmeta">By : <span>Jhon Doe </span> Category : <a href="#.">Car Rental</a></div>
+            <a href="#." class="readmore">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="int"> 
+          
+          <!-- Blog Image -->
+          <div class="postimg"> <img src="images/blog/2.jpg" alt="Blog Title"></div>
+          <!-- Blog info -->
+          <div class="post-header">
+            <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> Feb 01, 2018</div>
+            <h4><a href="#.">Duis ultricies aliquet mauris</a></h4>
+            <div class="postmeta">By : <span>Jhon Doe </span> Category : <a href="#.">Car Rental </a></div>
+            <a href="#." class="readmore">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="int"> 
+          
+          <!-- Blog Image -->
+          <div class="postimg"> <img src="images/blog/3.jpg" alt="Blog Title"></div>
+          <!-- Blog info -->
+          <div class="post-header">
+            <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> Feb 01, 2018</div>
+            <h4><a href="#.">Duis ultricies aliquet mauris</a></h4>
+            <div class="postmeta">By : <span>Jhon Doe </span> Category : <a href="#.">Car Rental</a></div>
+            <a href="#." class="readmore">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="int"> 
+          
+          <!-- Blog Image -->
+          <div class="postimg"> <img src="images/blog/4.jpg" alt="Blog Title"></div>
+          <!-- Blog info -->
+          <div class="post-header">
+            <div class="date"><i class="fa fa-calendar" aria-hidden="true"></i> Feb 01, 2018</div>
+            <h4><a href="#.">Duis ultricies aliquet mauris</a></h4>
+            <div class="postmeta">By : <span>Jhon Doe </span> Category : <a href="#.">Car Rental</a></div>
+            <a href="#." class="readmore">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Newsletter-->
+<div class="newsletter">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Newsletter</h3>
+        <p>Subscribe for our weekly newsletter.</p>
+      </div>
+      <div class="col-md-8">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Enter Your Email Address">
+          <span class="input-group-btn">
+          <button class="btn btn-secondary" type="button">Sign Up <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+          </span> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Google Map Section -->
+<div id="map-location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3934.047560336322!2d77.9508034!3d9.591168999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b012dbfef8563e5%3A0x27819092383890f5!2sSairam%20Tours%20%26%20Travels%20%7C%20Acting%20Drivers!5e0!3m2!1sen!2sin!4v1708841248699!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<!-- Contact Section -->
+<div id="contact">
+  <div class="container"> 
+    
+    <!-- Dection Title -->
+    <div class="section-title" >
+      <h3>Contact <span>Us</span></h3>
+      <p>Safety is our top priority. Our drivers are trained to operate vehicles safely and adhere to all industry standards and regulations. You can trust us to ensure a secure and controlled environment on set.</p>
+    </div>
+    
+    <!-- CONTACT FORM HERE -->
+    <div class="row">
+      <div class="col-md-8">
+        <div class="contact-form">
+          <form id="contact-form" class="row" action="https://sharjeelanjum.com/html/car-rental/html/feedback.php" method="POST">
+            <div class="col-md-6 col-sm-6">
+              <input type="text" class="form-control" name="name" placeholder="Name" required  >
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <input type="email" class="form-control" name="email" placeholder="Email" required >
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <input type="tel" class="form-control" name="phone" placeholder="Phone">
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <input type="text" class="form-control" name="address" placeholder="Address">
+            </div>
+            <div class="col-md-12 col-sm-12">
+              <textarea class="form-control" rows="7" name="message" placeholder="Message"></textarea>
+            </div>
+            <div class="col-md-12">
+              <button id="submit" type="submit" class="form-control" name="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="contact-now">
+          <div class="contact"> <span><i class="fa fa-home"></i></span>
+            <div class="information"> <strong>Address:</strong>
+              <p>78/5E, Pullalakottai Rd, Sivagami Puram, Virudhunagar, Tamil Nadu 626001</p>
+            </div>
+          </div>
+          <!-- Contact Info -->
+          <div class="contact"> <span><i class="fa fa-envelope"></i></span>
+            <div class="information"> <strong>Email Address:</strong>
+              <p>investigate@your-site.com</p>
+              <p>investigate@your-site.com</p>
+            </div>
+          </div>
+          <!-- Contact Info -->
+          <div class="contact"> <span><i class="fa fa-phone"></i></span>
+            <div class="information"> <strong>Phone No:</strong>
+              <p>+91 82204-48191</p>
+              <p>+91 73976-63555</p>
+            </div>
+          </div>
+          <!-- Contact Info --> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Clients Logo-->
+<!-- <div class="our-clients">
+  <div class="container"> 
+    
+
+    <div class="section-title">
+      <h3>Our <span>Partners</span></h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquet, massa ac ornare feugiat, nunc dui auctor ipsum, sed posuere eros sapien id quam. Maecenas odio nisi, efficitur eget.</p>
+    </div>
+    <div class="owl-clients">
+      <div class="item"> <img src="images/client-logo4.png" alt=""> </div>
+      <div class="item"> <img src="images/client-logo.png" alt=""> </div>
+      <div class="item"> <img src="images/client-logo2.png" alt=""> </div>
+      <div class="item"> <img src="images/client-logo3.png" alt=""> </div>
+      <div class="item"> <img src="images/client-logo.png" alt=""> </div>
+      <div class="item"> <img src="images/client-logo3.png" alt=""> </div>
+      <div class="item"> <img src="images/client-logo2.png" alt=""> </div>
+      <div class="item"> <img src="images/client-logo3.png" alt=""> </div>
+      <div class="item"> <img src="images/client-logo.png" alt=""> </div>
+      <div class="item"> <img src="images/client-logo3.png" alt=""> </div>
+      <div class="item"> <img src="images/client-logo2.png" alt=""> </div>
+    </div>
+  </div>
+</div> -->
+<!-- Clients Logo end--> 
+
+<!-- Footer Section -->
+<footer>
+  <div class="container"> 
+    <!-- social Section -->
+    <div class="socialLinks" > 
+      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
+      <!-- <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+      <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>  -->
+      <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a> 
+      <!-- <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>  -->
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="footer-copyright">
+          <p>&copy; <span id="current-year"></span> Sai Ram Tours & Travels | All Rights Reserved.</p>
+          <p>Developed by <a href="https://codecrafterinfo.com/" target="_blank">Code Crafter Info Solution</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap --> 
+<script src="js/jquery-2.1.4.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script> 
+
+<!-- Popup --> 
+<script src="js/jquery.magnific-popup.min.js"></script> 
+<script src="js/magnific-popup-options.js"></script> 
+
+<!-- Carousel --> 
+<script src="js/owl.carousel.js"></script> 
+
+<!-- Sticky Header --> 
+<script src="js/jquery.sticky.js"></script> 
+
+<!-- Parallax --> 
+<script src="js/jquery.parallax.js"></script> 
+
+<!-- Counter --> 
+<script src="js/counter.js"></script> 
+<script src="js/smoothscroll.js"></script> 
+
+<!-- Google Map --> 
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMqMG_n4C0aAi3F8a82Q6s3hxDLrTXxe8&amp;callback=initMap" async defer></script>  -->
+<!-- <script src="js/gmap.js"></script>  -->
+
+<!-- Custom --> 
+<script src="js/custom.js"></script>
+</body>
+
+<!-- Mirrored from sharjeelanjum.com/html/car-rental/html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Feb 2024 17:31:14 GMT -->
+</html>

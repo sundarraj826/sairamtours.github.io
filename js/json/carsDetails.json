@@ -1,0 +1,72 @@
+[
+    {
+        "name": "tata indica",
+        "hours": "11",
+        "km": "km",
+        "images": "../images/cars/tata-indica.png",
+        "doors": "4",
+        "passengers": "4",
+        "transmission": "Manual",
+        "airCondition": "Dual Zone"
+    },
+    {
+        "name": "tata zest",
+        "hours": "12",
+        "km": "km",
+        "images": "../images/cars/tata-zest.png",
+        "doors": "4",
+        "passengers": "4",
+        "transmission": "Manual",
+        "airCondition": "Dual Zone"
+    },
+    {
+        "name": "swift",
+        "hours": "12",
+        "km": "km",
+        "images": "../images/cars/swift.png",
+        "doors": "4",
+        "passengers": "4",
+        "transmission": "Manual",
+        "airCondition": "Dual Zone"
+    },
+    {
+        "name": "etios",
+        "hours": "13",
+        "km": "km",
+        "images": "../images/cars/etios.png",
+        "doors": "4",
+        "passengers": "4",
+        "transmission": "Manual",
+        "airCondition": "Dual Zone"
+    },
+    {
+        "name": "tavera",
+        "hours": "16",
+        "km": "km",
+        "images": "../images/cars/tavera.png",
+        "doors": "4",
+        "passengers": "6",
+        "transmission": "Manual",
+        "airCondition": "Dual Zone"
+    },
+    {
+        "name": "innova",
+        "hours": "18",
+        "km": "km",
+        "images": "../images/cars/innova.png",
+        "doors": "4",
+        "passengers": "6",
+        "transmission": "Manual",
+        "airCondition": "Dual Zone"
+    },
+    {
+        "name": "tempo traveler",
+        "hours": "25",
+        "km": "km",
+        "images": "../images/cars/Tempo.png",
+        "doors": "2",
+        "passengers": "12 to 30",
+        "transmission": "Manual",
+        "airCondition": "Dual Zone"
+    }
+]
